@@ -8,12 +8,12 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #ffa500;
+  background-color: #219ebc;
   text-align: left;
 /*  min-width: 500px; */
 }
 header {
-  font-family: Work Sans;
+  font-family: Merriweather;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -32,7 +32,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: Lora;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -40,12 +40,12 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: Lora;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #219ebc;
   padding: 10px 0px 10px 10px;
 }
 
@@ -64,7 +64,7 @@ img {
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'Work Sans';
+  font-family: 'Merriweather';
 }
 
 .buttonBox {
@@ -115,7 +115,7 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: Lora;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -126,8 +126,8 @@ img {
 }
 
 .description {
-  font-family: Work Sans;
-  font-size: 14px;
+  font-family: Merriweather;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
@@ -151,4 +151,8 @@ img {
 
 footer {
   margin-top: 44px;
+}
+
+a {
+  color: #00b09b;
 }
